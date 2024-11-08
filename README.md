@@ -34,9 +34,9 @@ The application requires the following environment variables:
     ```
 2. update `.env` with your GitHub Token. You can create a new fine-grained PAT via the [Developer Settings section](https://github.com/settings/personal-access-tokens/new) in your account settings.
     
-        ```sh
-        GITHUB_TOKEN=your_github_token_xxxxxxxxxxxxxxxxxx
-        ```
+    ```sh
+    GITHUB_TOKEN=your_github_token_xxxxxxxxxxxxxxxxxx
+    ```
 
 3. 部署应用：
 
