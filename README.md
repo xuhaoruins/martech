@@ -24,3 +24,22 @@ MarketingWriter is an intelligent marketing copy generation application built us
 The application requires the following environment variables:
 
 - `GITHUB_TOKEN`: GitHub token used to access the Azure OpenAI service.
+
+### Deployment
+
+1. Use azd init this template：
+
+    ```sh
+    azd init --template https://github.com/xuhaoruins/marketingwriter
+    ```
+2. update `.env` with your GitHub Token. You can create a new fine-grained PAT via the [Developer Settings section](https://github.com/settings/personal-access-tokens/new) in your account settings.
+    
+        ```sh
+        GITHUB_TOKEN=your_github_token_xxxxxxxxxxxxxxxxxx
+        ```
+
+3. 部署应用：
+
+    ```sh
+    azd up
+    ```
